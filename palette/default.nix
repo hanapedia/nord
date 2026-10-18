@@ -59,52 +59,52 @@
   };
 
   light = {
-    fg = "#2E3440";
+    fg = "#3B4252";
     fg_light = "#4C566A";
-    bg = "#ECEFF4";
+    bg = "#D8DEE9";
 
     gray = "#8FA0BD";
-    light_gray = "#5E6B84";
+    light_gray = "#566279";
 
-    cyan = "#3E8FA3";
-    blue = "#4C72B0";
+    cyan = "#2E6978";
+    blue = "#426298";
     dark_blue = "#395C8A";
 
-    green = "#5C8A52";
-    light_green = "#4F8F8A";
+    green = "#476B3F";
+    light_green = "#3B6A66";
 
-    dark_red = "#B2444F";
-    red = "#B2444F";
-    light_red = "#C2614A";
+    dark_red = "#A63F4A";
+    red = "#A63F4A";
+    light_red = "#9D4935";
 
-    pink = "#A85A8C";
+    pink = "#8F4B77";
     dark_pink = "#8C4575";
 
-    orange = "#BC6A3E";
-    yellow = "#A3792F";
+    orange = "#915230";
+    yellow = "#7C5C24";
 
-    purple = "#8B5E96";
-    light_purple = "#9D74A8";
+    purple = "#7B5385";
+    light_purple = "#7B5486";
 
     none = "NONE";
 
-    error = "#B2444F";
-    warn = "#BC6A3E";
-    info = "#5C8A52";
-    hint = "#8B5E96";
+    error = "#A63F4A";
+    warn = "#915230";
+    info = "#476B3F";
+    hint = "#7B5385";
 
-    diff_add = "#5C8A52";
-    diff_add_bg = "#DCEAD4";
+    diff_add = "#476B3F";
+    diff_add_bg = "#C2CDD0";
     diff_change = "#395C8A";
-    diff_change_bg = "#DCE4F0";
-    diff_remove = "#B2444F";
-    diff_remove_bg = "#F6DCDD";
-    diff_text_bg = "#CBDAEC";
+    diff_change_bg = "#C0CADB";
+    diff_remove = "#A63F4A";
+    diff_remove_bg = "#CFC1CC";
+    diff_text_bg = "#A8B7CC";
 
-    active = "#E3E7ED";
-    float = "#E6E9EF";
-    highlight = "#DCE0E8";
-    highlight_dark = "#D3D9E3";
-    selection = "#C8D0DE";
+    active = "#D2D8E4";
+    float = "#CAD0DC";
+    highlight = "#C5CCD7";
+    highlight_dark = "#C1C7D3";
+    selection = "#B7BECA";
   };
 }
