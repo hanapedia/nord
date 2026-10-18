@@ -1,0 +1,104 @@
+-- Mirrors palette/default.nix at the repo root. Kept as plain Lua (rather
+-- than generated) so this plugin works from a normal plugin-manager clone
+-- with no Nix/build step. If you change one, change the other.
+return {
+  dark = {
+    fg = "#D8DEE9",
+    fg_light = "#ECEFF4",
+    bg = "#2E3440",
+
+    gray = "#4C566A",
+    light_gray = "#5E6B84",
+
+    cyan = "#88C0D0",
+    blue = "#81A1C1",
+    dark_blue = "#5E81AC",
+
+    green = "#A3BE8C",
+    light_green = "#8FBCBB",
+
+    dark_red = "#BF616A",
+    red = "#BF616A",
+    light_red = "#CC7A81",
+
+    pink = "#D88FB3",
+    dark_pink = "#C76698",
+
+    orange = "#D08770",
+    yellow = "#EBCB8B",
+
+    purple = "#B48EAD",
+    light_purple = "#C7A0C3",
+
+    none = "NONE",
+
+    error = "#BF616A",
+    warn = "#D08770",
+    info = "#A3BE8C",
+    hint = "#B48EAD",
+
+    diff_add = "#A3BE8C",
+    diff_add_bg = "#3B4A3E",
+    diff_change = "#5E81AC",
+    diff_change_bg = "#374A5E",
+    diff_remove = "#BF616A",
+    diff_remove_bg = "#4C3337",
+    diff_text_bg = "#3E5774",
+
+    active = "#333A47",
+    float = "#3B4252",
+    highlight = "#3F4758",
+    highlight_dark = "#434C5E",
+    selection = "#4C566A",
+  },
+
+  light = {
+    fg = "#2E3440",
+    fg_light = "#4C566A",
+    bg = "#ECEFF4",
+
+    gray = "#8FA0BD",
+    light_gray = "#5E6B84",
+
+    cyan = "#3E8FA3",
+    blue = "#4C72B0",
+    dark_blue = "#395C8A",
+
+    green = "#5C8A52",
+    light_green = "#4F8F8A",
+
+    dark_red = "#B2444F",
+    red = "#B2444F",
+    light_red = "#C2614A",
+
+    pink = "#A85A8C",
+    dark_pink = "#8C4575",
+
+    orange = "#BC6A3E",
+    yellow = "#A3792F",
+
+    purple = "#8B5E96",
+    light_purple = "#9D74A8",
+
+    none = "NONE",
+
+    error = "#B2444F",
+    warn = "#BC6A3E",
+    info = "#5C8A52",
+    hint = "#8B5E96",
+
+    diff_add = "#5C8A52",
+    diff_add_bg = "#DCEAD4",
+    diff_change = "#395C8A",
+    diff_change_bg = "#DCE4F0",
+    diff_remove = "#B2444F",
+    diff_remove_bg = "#F6DCDD",
+    diff_text_bg = "#CBDAEC",
+
+    active = "#E3E7ED",
+    float = "#E6E9EF",
+    highlight = "#DCE0E8",
+    highlight_dark = "#D3D9E3",
+    selection = "#C8D0DE",
+  },
+}
