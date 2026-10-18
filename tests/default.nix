@@ -23,6 +23,7 @@ let
       -c "lua assert(vim.api.nvim_get_hl(0, {name='Normal'}).bg ~= nil)" \
       -c "lua vim.cmd.colorscheme('nord-light'); assert(vim.g.colors_name == 'nord-light')" \
       -c "lua require('nord').toggle(); assert(vim.g.colors_name == 'nord')" \
+      -c "lua local t = require('lualine.themes.nord'); assert(t.normal.a.bg ~= nil); assert(t.inactive.c.bg ~= nil)" \
       -c "qa"
     touch "$out"
   '';
